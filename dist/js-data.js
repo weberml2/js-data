@@ -1,6 +1,6 @@
 /*!
  * js-data
- * @version 2.9.0 - Homepage <http://www.js-data.io/>
+ * @version 2.9.1 - Homepage <http://www.js-data.io/>
  * @author Jason Dobry <jason.dobry@gmail.com>
  * @copyright (c) 2014-2016 Jason Dobry 
  * @license MIT <https://github.com/js-data/js-data/blob/master/LICENSE>
@@ -95,10 +95,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	
 	  version: {
-	    full: '2.9.0',
+	    full: '2.9.1',
 	    major: parseInt('2', 10),
 	    minor: parseInt('9', 10),
-	    patch: parseInt('0', 10),
+	    patch: parseInt('1', 10),
 	    alpha:  true ? 'false' : false,
 	    beta:  true ? 'false' : false
 	  }
@@ -3791,6 +3791,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.defaultValues = {};
 	    this.methods = {};
 	    this.computed = {};
+	    this.meta = {};
 	    this.scopes = {};
 	    this.actions = {};
 	    _utils2.default.deepMixIn(this, options);
